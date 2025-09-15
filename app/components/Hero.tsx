@@ -6,26 +6,26 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className = "relative bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 text-white h-screen flex items-center">
-      <div className="max-w-6xl mx-auto px-6 py-32 flex flex-col items-center text-center">
+    <section className="relative text-white h-screen flex items-center bg-image--hero">
+      <div className="max-w-6xl mx-auto px-6 py-32 flex flex-col items-center text-center z-10">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-          エンドクライアントの課題を解決する
+          Cloud Fox
           <br />
-          信頼のWeb制作サービス
+          地域密着型で課題を制作から解決する
         </h1>
-        <p className="mt-6 text-lg md:text-xl text-blue-100 max-w-2xl">
-          SEOに強く、成果につながるサイト制作を。企画から運用までワンストップでサポートいたします。
+        <p className="mt-6 text-lg md:text-xl text-blue-50 max-w-2xl">
+          SEOに強く、集客につながるサイト制作を。<br />リニューアル、企画から運用までワンストップでサポートいたします。
         </p>
-        <div className="mt-8 flex gap-4">
-          <Button size="lg" className="bg-blue-500 hover:bg-blue-600">
-            無料相談する <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+        <div className="mt-12 flex gap-4">
           <Button
             size="lg"
             variant="outline"
-            className="border-white text-white hover:bg-white hover:text-blue-900"
+            className="border-white text-white bg-blue-500 hover:bg-blue-600 hover:text-geay-100"
           >
             制作実績を見る
+          </Button>
+          <Button size="lg" className="bg-accent font-bold hover:bg-[#E67328] text-white">
+            無料相談する <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
       </div>

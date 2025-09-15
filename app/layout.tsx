@@ -5,7 +5,7 @@ export const metadata : Metadata = {
   title: "岐阜・愛知のWeb制作 | 森 隼也",
   description: "岐阜・愛知エリアの中小企業に特化したWeb制作サービス。集客・デザイン・SEOを重視したホームページ制作を提供。",
   openGraph: {
-    title: "岐阜・愛知のWeb制作 | 森 隼也",
+    title: "岐阜・愛知のWeb制作 | Cloud Fox",
     description: "岐阜・愛知エリアでの集客に強いWeb制作サービス。",
     url: "https://your-domain.com",
     siteName: "Web制作サービス",
