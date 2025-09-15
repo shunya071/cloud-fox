@@ -123,3 +123,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+.bg-image--hero {
+  background-image: url(/hero/bg-hero.png);
+  background-position: bottom center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  z-index: 1;
+}
