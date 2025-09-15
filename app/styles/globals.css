@@ -125,10 +125,19 @@
 }
 
 .bg-image--hero {
-  background-image: url(/hero/bg-hero.png);
+  background-image: url(/hero/bg-hero.png) !important;
   background-position: bottom center;
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
   z-index: 1;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
 }
