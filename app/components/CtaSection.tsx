@@ -7,10 +7,10 @@ export function CtaSection() {
     <section className="bg-[#1E73BE] text-white py-20">
       <div className="max-w-4xl mx-auto text-center px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          あなたのビジネスを次のステージへ
+          あなたのビジネスを<br className="md:hidden"/>次のステージへ
         </h2>
         <p className="text-lg md:text-xl mb-10 text-blue-100 leading-relaxed">
-          集客や信頼構築に強いWebサイトを、岐阜・愛知エリアでお届けします。<br /> 
+          集客や信頼構築に強いWebサイトを、<br className="md:hidden"/>岐阜・愛知エリアでお届けします。<br /> 
           まずはお気軽にご相談ください。
         </p>
         <Link
