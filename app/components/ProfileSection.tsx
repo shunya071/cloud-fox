@@ -25,15 +25,15 @@ export function ProfileSection() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center md:text-left">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center">
             私について
           </h2>
-          <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-lg text-white text-center md:text-left leading-relaxed">
+          <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-lg text-white text-center leading-relaxed">
             お客様のビジネスの成長をサポートする<br className="md:hidden"/>web開発を専門としています。<br />
             webサイトを0から構築する場合でも、<br className="md:hidden"/>既存webサイトをリニューアルする場合でも<br />
             お客様のニーズに合わせた最高品質、<br className="md:hidden"/>高性能のソリューションをご提供いたします。
           </p>
-          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4 sm:gap-8 items-center">
+          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 items-center">
             <Button size="lg" className="bg-accent text-white font-bold hover:bg-[#E67328] w-full sm:w-auto">
               制作実績を見る
             </Button>
@@ -51,7 +51,7 @@ export function ProfileSection() {
               <p className="border border-white rounded-md inline-block my-4 sm:my-4 px-3 py-1 sm:px-4 sm:py-2 text-base">
                 構築数
               </p>
-              <p className="text-xs sm:text-sm">これまで中小企業をはじめとするクライアント様へ10以上の開発してきました。</p>
+              <p className="text-xs sm:text-sm">これまで中小企業をはじめとするクライアント様へ<br/>10以上の開発してきました。</p>
             </div>
             <div className="text-white">
               <h3 className="text-5xl sm:text-6xl md:text-7xl font-bold">
@@ -60,7 +60,7 @@ export function ProfileSection() {
               <p className="border border-white rounded-md inline-block my-4 sm:my-4 px-3 py-1 sm:px-4 sm:py-2 text-base">
                 満足度
               </p>
-              <p className="text-xs sm:text-sm">工数の削減や細かいご提案をさせていただいてることが満足度につながっています。</p>
+              <p className="text-xs sm:text-sm">工数の削減や細かいご提案をさせていただいてることが<br/>満足度につながっています。</p>
             </div>
             <div className="text-white col-span-1 sm:col-span-2">
               <h3 className="text-5xl sm:text-6xl md:text-7xl font-bold">
@@ -76,7 +76,7 @@ export function ProfileSection() {
 
         {/* Right / Phone */}
         <motion.div
-          className="col-span-2 flex justify-center md:justify-end mt-8 md:mt-0 mx-auto"
+          className="col-span-2 flex justify-center md:justify-end mt-8 md:mt-0 mx-auto md:col-span-1"
           initial={{ opacity: 0, scale: 0.8, rotateY: -45, rotateX: 10, y: 50 }}
           animate={inView ? { opacity: 1, scale: 1, rotateY: 0, rotateX: 0, y: 0 } : {}}
           transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
