@@ -15,7 +15,7 @@ export function FaqSection() {
           よくある質問
         </h2>
         <p className="mt-4 text-lg text-gray-600 text-center">
-          初めてご依頼いただく方からよくいただくご質問をまとめました。
+          初めてご依頼いただく方から<br className="md:hidden"/>よくいただくご質問をまとめました。
         </p>
 
         <div className="mt-12">
@@ -25,7 +25,7 @@ export function FaqSection() {
               value="item-1"
               className="border border-transparent rounded-md data-[state=open]:border-[#1E73BE] transition-colors"
             >
-              <AccordionTrigger className="text-lg font-semibold text-white bg-[#1E73BE] data-[state=open]:rounded-b-none pl-8 py-6 rounded-md hover:bg-[#155a96] hover:shadow-md transition-all hover:no-underline">
+              <AccordionTrigger className="text-base md:text-lg font-semibold text-white bg-[#1E73BE] data-[state=open]:rounded-b-none pl-8 py-6 rounded-md hover:bg-[#155a96] hover:shadow-md transition-all hover:no-underline">
                 制作期間はどのくらいかかりますか？
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 leading-relaxed p-8">
@@ -40,7 +40,7 @@ export function FaqSection() {
               value="item-2"
               className="border border-transparent rounded-md data-[state=open]:border-[#1E73BE] transition-colors"
             >
-              <AccordionTrigger className="text-lg font-semibold text-white bg-[#1E73BE] data-[state=open]:rounded-b-none pl-8 py-6 rounded-md hover:bg-[#155a96] hover:shadow-md transition-all hover:no-underline">
+              <AccordionTrigger className="text-base md:text-lg font-semibold text-white bg-[#1E73BE] data-[state=open]:rounded-b-none pl-8 py-6 rounded-md hover:bg-[#155a96] hover:shadow-md transition-all hover:no-underline">
                 SEO対策は含まれていますか？
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 leading-relaxed p-8">
@@ -54,7 +54,7 @@ export function FaqSection() {
               value="item-3"
               className="border border-transparent rounded-md data-[state=open]:border-[#1E73BE] transition-colors"
             >
-              <AccordionTrigger className="text-lg font-semibold text-white bg-[#1E73BE] data-[state=open]:rounded-b-none pl-8 py-6 rounded-md hover:bg-[#155a96] hover:shadow-md transition-all hover:no-underline">
+              <AccordionTrigger className="text-base md:text-lg font-semibold text-white bg-[#1E73BE] data-[state=open]:rounded-b-none pl-8 py-6 rounded-md hover:bg-[#155a96] hover:shadow-md transition-all hover:no-underline">
                 修正はどの程度まで可能ですか？
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 leading-relaxed p-8">
@@ -68,7 +68,7 @@ export function FaqSection() {
               value="item-4"
               className="border border-transparent rounded-md data-[state=open]:border-[#1E73BE] transition-colors"
             >
-              <AccordionTrigger className="text-lg font-semibold text-white bg-[#1E73BE] data-[state=open]:rounded-b-none pl-8 py-6 rounded-md hover:bg-[#155a96] hover:shadow-md transition-all hover:no-underline">
+              <AccordionTrigger className="text-base md:text-lg font-semibold text-white bg-[#1E73BE] data-[state=open]:rounded-b-none pl-8 py-6 rounded-md hover:bg-[#155a96] hover:shadow-md transition-all hover:no-underline">
                 公開後の運用サポートはありますか？
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 leading-relaxed p-8">
